@@ -86,7 +86,7 @@ a:hover {
 }
 
 .login_button:hover {
-    color: #fff;
+    color: #00f;
 }
 
 .search {
@@ -684,4 +684,35 @@ a:hover {
     margin: 0 10px;
     text-align: center;
     font-size: 16px;
+}
+
+.a_content {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.a_content_header {
+    border-bottom: 2px dashed lightgray;
+    padding-bottom: 40px;
+}
+
+.a_content_title {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.a_content_details {
+    color: dimgray;
+    width: 100%;
+    text-align: center;
+}
+
+.a_content_content {
+    width: 100%;
+    margin-bottom: 100px;
 }
