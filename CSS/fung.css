@@ -36,6 +36,23 @@ a:hover {
     background-color: #8dcc59;
 }
 
+.header {
+    width: 100%;
+    min-width: 1000px;
+    height: 100px;
+}
+
+.green_button {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    background-color: #8dcc59;
+    border-radius: 5px;
+}
+
 .ih_inner {
     width: 1000px;
     height: 100px;
@@ -101,6 +118,34 @@ a:hover {
     font-size: 10px;
 }
 
+.search_0 {
+    height: 25px;
+    width: 200px;
+    border: 2px solid #8dcc59;
+    white-space: nowrap;
+    margin-top: 50px;
+}
+
+.s_button_0 {
+    height: 100%;
+    width: 20%;
+    border: 0;
+    color: #fff;
+    border-left: 2px solid #fff;
+    border-radius: 0;
+    font-size: 10px;
+    background-color: #8dcc59;
+}
+
+.s_input_0 {
+    width: 75%;
+    background: none;
+    border: 0;
+    margin-left: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+
 .index_navibar {
     width: 100%;
     min-width: 1000px;
@@ -108,6 +153,13 @@ a:hover {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 100px;
+}
+
+.navibar {
+    width: 100%;
+    min-width: 1000px;
+    height: 40px;
+    background: #8dcc59;
 }
 
 .in_inner {
@@ -142,7 +194,6 @@ a:hover {
     margin: auto;
     position: relative;
     text-align: center;
-    top: -40px;
 }
 
 .b0_bb {
@@ -152,6 +203,7 @@ a:hover {
     width: 500px;
     height: 250px;
     z-index: 10;
+    margin-top: 40px;
 }
 
 .memo_0 {
@@ -159,7 +211,7 @@ a:hover {
     width: 500px;
     position: absolute;
     left: 0;
-    top: 60px;
+    top: 20px;
     z-index: 100;
 }
 
@@ -168,7 +220,7 @@ a:hover {
     width: 500px;
     position: absolute;
     left: 0;
-    top: 170px;
+    top: 130px;
     z-index: 100;
 }
 
@@ -178,6 +230,16 @@ a:hover {
     position: absolute;
     bottom: 0;
     background: url("../Images/index/swiper_filter.png");
+}
+
+.b0_swiper {
+    width: 100%;
+    overflow: hidden;
+    max-width: 1920px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    z-index: -1;
 }
 
 .t_button {
@@ -200,36 +262,36 @@ a:hover {
 
 .t_button_0 {
     left: 18px;
-    top: 86px;
+    top: 46px;
 }
 
 .t_button_1 {
     left: 196px;
-    top: 86px;
+    top: 46px;
 }
 
 .t_button_2 {
     left: 370px;
-    top: 86px;
+    top: 46px;
 }
 
 .t_button_3 {
     left: 26px;
-    top: 198px;
+    top: 158px;
 }
 
 .t_button_4 {
     left: 200px;
-    top: 198px;
+    top: 158px;
 }
 
 .t_button_5 {
     left: 370px;
-    top: 198px;
+    top: 158px;
 }
 
 .b1 {
-    width: 960px;
+    width: 958px;
     height: 360px;
     padding: 20px;
     margin: auto;
@@ -264,6 +326,9 @@ a:hover {
 
 .b1_title_img {
     height: 55px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .b1_title_div {
@@ -273,6 +338,8 @@ a:hover {
     top: 5px;
     color: #ffffff;
     font-size: 25px;
+    height: 40px;
+    line-height: 40px;
 }
 
 .b1_title_more {
@@ -513,4 +580,108 @@ a:hover {
     font-size: 1.4rem;
     height: 40px;
     line-height: 40px;
+}
+
+.block {
+    margin: auto;
+    width: 960px;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px dashed lightgray;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.directory {
+    float: right;
+    color: gray;
+    font-size: 16px;
+}
+
+.news_tab {
+    color: dimgray;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.news_tab_selected {
+    color: #9bc851;
+    border-bottom: 2px solid #9bc851;
+}
+
+.news_tab:hover {
+    text-decoration: none;
+}
+
+.news_block {
+    display: block;
+    margin: auto;
+    width: 960px;
+    height: auto;
+    border-bottom: 2px dashed lightgray;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.news_block:hover {
+    color: #9bc851;
+    text-decoration: none;
+}
+
+.news_title {
+    height: 60px;
+    line-height: 60px;
+}
+
+.news_details {
+    width: 100%;
+    color: dimgray;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.nq_picture {
+    height: 210px;
+    line-height: 210px;
+    width: 280px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.nq_picture img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.nq_content_block {
+    width: 650px;
+    height: 210px;
+}
+
+.nq_content {
+    height: 150px;
+    width: auto;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 16px;
+    color: dimgray;
+    margin-bottom: 10px;
+}
+
+.page {
+    width: 100%;
+    min-width: 100px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.page_input {
+    width: 3rem;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 16px;
 }
