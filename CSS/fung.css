@@ -166,6 +166,7 @@ a:hover {
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 100px;
+    z-index: 10000;
 }
 
 .navibar {
@@ -209,6 +210,16 @@ a:hover {
     text-align: center;
 }
 
+.swiper-container {
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 350px;
+    position: relative;
+    text-align: center;
+
+}
+
 .b0_bb {
     position: absolute;
     left: 50%;
@@ -247,12 +258,10 @@ a:hover {
 
 .b0_swiper {
     width: 100%;
-    overflow: hidden;
     max-width: 1920px;
-    height: 450px;
+    height: 450px !important;
     margin: auto;
-    position: relative;
-    z-index: -1;
+    z-index: 0 !important;
 }
 
 .t_button {
@@ -311,8 +320,8 @@ a:hover {
     background-color: #fff;
     border: 1px solid lightgray;
     border-radius: 20px;
-    z-index: 1000;
-
+    z-index: 2;
+    position: relative;
 }
 
 .b1_l {

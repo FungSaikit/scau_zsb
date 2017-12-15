@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>欢迎光临 —— 华南农业大学本科招生办公室</title>
     <link rel="stylesheet" href="../CSS/fung.css">
+    <link rel="stylesheet" href="../CSS/swiper-3.4.2.min.css">
+    <script type="text/javascript" src="../JavaScript/swiper-3.4.2.min.js"></script>
 </head>
 <body>
 
@@ -36,9 +38,26 @@
         <a class="t_button t_button_4" href="">新生奖励办法</a>
         <a class="t_button t_button_5" href="">双学位<br>转专业</a>
     </div>
-    <div class="b0_swiper" style="background: url('../Images/index/swiperimg0.png') no-repeat center;">
-        <div class="b0_swiper_cloak"></div>
+
+
+
+    <div class="swiper-container" style="overflow:visible; z-index: 0;">
+
+        <div class="swiper-wrapper">
+
+            <div class="b0_swiper swiper-slide" style="background: url('../Images/index/swiperimg0.png') no-repeat center;">
+                <div class="b0_swiper_cloak"></div>
+            </div>
+            <div class="b0_swiper swiper-slide" style="background: url('../Images/index/Slider-1.jpg') no-repeat center;">
+                <div class="b0_swiper_cloak"></div>
+            </div>
+
+        </div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+
     </div>
+
 </div>
 
 <div class="index_navibar">
@@ -230,5 +249,17 @@
     </div>
 </div>
 
+
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true,
+        autoplay: 5000,
+        effect: 'fade',
+        autoplayDisableOnInteraction: false,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+
+    })
+</script>
 </body>
 </html>
