@@ -53,6 +53,19 @@ a:hover {
     border-radius: 5px;
 }
 
+.green_button div {
+    display: inline-block;
+    height:20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.green_button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
 .ih_inner {
     width: 1000px;
     height: 100px;
