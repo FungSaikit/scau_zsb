@@ -216,6 +216,17 @@
     </div>
 </div>
 
+<div class="link">
+    <div class="link_title">校内友情链接</div>
+    <div class="link_description">选择你想要前往的学院，点击立即前往，<br>了解更多关于学校及学院环境、学院或专业教学成果及校园风采。</div>
+
+    <select id="link_select" onchange="selectWebsite(this)">
+        <option value="0">请选择</option>
+        <option value="http://info.scau.edu.cn/">数学与信息学院(软件学院)</option>
+    </select>
+    <a id="link_button" href="" target="_blank" class="green_button" style="height: 30px; line-height: 30px">立即前往</a>
+</div>
+
 <div class="footer">
     <div class="inline-block" style="width: 300px; text-align: left;">
         <div class="footer_title">本科招生联系方式</div>
@@ -258,8 +269,23 @@
         autoplayDisableOnInteraction: false,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev'
-
     })
+
+    // function selectWebsite(object) {
+    //     if (object.getAttribute('value') != 0) {
+    //         window.open(object.getAttribute('value'));
+    //     }
+    // }
+    //
+    // function jumpToWebSite() {
+    //
+    // }
+    var linkButton = document.getElementById('link_button');
+    function selectWebsite(object) {
+        linkButton.setAttribute('href', object.value);
+        window.open(object.value);
+    }
+
 </script>
 </body>
 </html>
